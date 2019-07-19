@@ -1,7 +1,7 @@
-# Session_6_to_12
-AcadGild Data Science Masters Assignment - Session 6 to 12 &amp; Project 2
+# Session_13_to_18
+AcadGild Data Science Masters Assignment (Statistics) - Session 6 to 12 &amp; Case Study 1 and 2
 
-Repository consist folders of each session and for project 2 (data mangling)
+Repository consist folders of each session and for statistics case studies
 
 Each folder consist of:
 - One .py file having python code for each problem statement
