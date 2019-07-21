@@ -5,3 +5,10 @@ A test is conducted which is consisting of 20 MCQs (multiple choices questions) 
 
 Determine the probability that a person undertaking that test has answered exactly 5 questions wrong.
 """
+from scipy import stats
+
+n = 20
+p = 0.75
+probability = stats.binom.pmf(5, n, p)
+
+print("The probability that a person undertaking that test has answered exactly 5 questions wrong is", probability)
