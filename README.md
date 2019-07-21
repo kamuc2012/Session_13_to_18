@@ -1,5 +1,5 @@
 # Session_13_to_18
-AcadGild Data Science Masters Assignment (Statistics) - Session 6 to 12 &amp; Case Study 1 and 2
+AcadGild Data Science Masters Assignment (Statistics) - Session 6 to 12 (Statistics 1 to 4)
 
 Repository consist folders of each session and for statistics case studies
 
