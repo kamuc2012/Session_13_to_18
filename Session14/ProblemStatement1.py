@@ -7,8 +7,8 @@ Determine the probability that a person undertaking that test has answered exact
 """
 from scipy import stats
 
-n = 20
-p = 0.75
-probability = stats.binom.pmf(5, n, p)
+total_num_of_question = 20
+p_wrong_answer = 3/4
+probability = stats.binom.pmf(5, total_num_of_question, p_wrong_answer)
 
 print("The probability that a person undertaking that test has answered exactly 5 questions wrong is", probability)

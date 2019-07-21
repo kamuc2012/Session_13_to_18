@@ -18,7 +18,7 @@ prob_failing_one_subject = float(failed_one_subject) / class_strength
 prob_failing_two_subjects = float(failed_two_subjects) / class_strength
 prob_failing_three_subjects = float(failed_three_subjects) / class_strength
 
-print("The probability distribution of the variable for number of subjects a student from the given class has failed in: ")
+print("The probability distribution of the variable for number of subjects a student from the given class has failed in: \n")
 
 prob_distribution_data = {"X": ["P(X)"], "0": [prob_failing_zero_subject], "1": [prob_failing_one_subject], "2": [prob_failing_two_subjects], "3": [prob_failing_three_subjects]}
 df = pd.DataFrame(data=prob_distribution_data)
