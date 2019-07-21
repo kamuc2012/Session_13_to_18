@@ -36,8 +36,7 @@ if(p_value_comp < significance_level ):
     print("Probability of having value more than or equals to 108 is less than " + str(significance_level) + " so we will reject the Null hypothesis. There is raw cornstarch effect.")
 else:
     print("Probability of having value less than 108 is not less than " + str(significance_level) + " so we will not reject the Null hypothesis. There is no raw cornstarch effect.")
-print("="*50)
-print()
+print("\n", "="*50, "\n", sep="")
 
 '''
 1. In one state, 52% of the voters are Republicans, and 48% are Democrats. 
@@ -54,16 +53,16 @@ print()
 
 n1 = 100
 n2 = 100
-print("The number of voters sampled from the first state: n1 = 100")
-print("The number of voters sampled from the second state: n2 = 100")
+print("The number of voters sampled from the first state: n1 =", n1)
+print("The number of voters sampled from the second state: n2 =", n2)
 print()
 
 md = P1-P2
-print("The mean of the difference in sample proportions: E(p1-p2) = P1-P2 =",round(md,2))
+print("The mean of the difference in sample proportions: E(p1-p2) = P1-P2 =", round(md,2))
 print()
 
 sd = ((P1*(1-P1)/n1) + (P2*(1-P2)/n2))**0.5
-print("The standard deviation of the difference, σd = sqrt{[P1(1-P1)/n1] + [P2(1-P2)/n2]}, σd =",sd)
+print("The standard deviation of the difference, σd = sqrt{[P1(1-P1)/n1] + [P2(1-P2)/n2]}, σd =", sd)
 print()
 
 print("We need to find if the probability p1 - p2 is less than zero. To find this probability, we need to transform the random variable (p1 - p2) into a z-score.")
@@ -75,8 +74,7 @@ print()
 
 p_value = st.norm.cdf(Z)
 print("The probability that the survey will show a greater percentage of Republican voters in the second state than in the first state is:", round(p_value, 2))
-print("="*50)
-print()
+print("\n", "="*50, "\n", sep="")
 
 '''
 2. You take the SAT and score 1100. The mean score for the SAT is 1026 and the standard deviation is 209. 
@@ -88,5 +86,5 @@ x = 1100 # You take the SAT and score 1100.
 Z = (x-m)/s # Calculating Z - Score
 
 p_value = st.norm.cdf(Z) #The probability of given z-score
-print("I have scored higher than " + str(p_value*100)+ "% of test takers.");
-print("="*50)
+print("I have scored higher than", str(p_value*100), "% of test takers.")
+print("\n", "="*50, "\n", sep="")
